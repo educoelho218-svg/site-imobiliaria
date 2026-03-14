@@ -56,6 +56,9 @@ nav {
 }
 
 .logo a {
+    display: flex;
+    align-items: center;
+    gap: 12px; /* Espaço entre a imagem e o texto */
     font-size: 1.5rem;
     font-weight: 700;
     color: var(--primary-color);
@@ -63,7 +66,7 @@ nav {
 }
 
 .logo img {
-    height: 90px; /* Ajuste a altura conforme necessário */
+    height: 60px; /* Tamanho reduzido para equilibrar com o texto */
     width: auto;
     display: block;
 }
